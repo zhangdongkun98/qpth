@@ -1,11 +1,11 @@
-#!/usr/bin/env python3
+"""
+Run these tests with: nosetests -v -d <file>.py
+  This will run all functions even if one throws an assertion.
 #
-# Run these tests with: nosetests -v -d <file>.py
-#   This will run all functions even if one throws an assertion.
-#
-# For debugging: ./<file>.py
-#   Easier to print statements.
-#   This will exit qfter the first assertion.
+For debugging: ./<file>.py
+  Easier to print statements.
+  This will exit qfter the first assertion.
+"""
 
 import torch
 from torch.autograd import Variable
